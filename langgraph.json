@@ -1,0 +1,25 @@
+{
+  "$schema": "https://langgra.ph/schema.json",
+  "python_version": "3.12",
+  "dependencies": ["."],
+  "graphs": {
+    "hello_agent": "./src/hello_agent/graph.py:make_graph"
+  },
+  "env": ".env",
+  "http": {
+    "configurable_headers": {
+      "includes": [
+        "x-delegation-authorization",
+        "authorization",
+        "x-session-id",
+        "x-request-id",
+        "traceparent",
+        "tracestate",
+        "x-agent-id",
+        "x-user-subject",
+        "x-project",
+        "x-bank-id"
+      ]
+    }
+  }
+}
