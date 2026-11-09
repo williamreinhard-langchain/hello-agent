@@ -13,6 +13,7 @@ src/hello_agent/local_tools.py  # in-process copies of the MCP tools (used when 
 mcp_server/server.py            # sample "memory" MCP server (FastMCP, streamable-http on /mcp)
 evals/run_eval.py               # LangSmith dataset + experiment
 langgraph.json                  # deployment config
+managed_agent/                  # the same agent as a Managed Deep Agent (see managed_agent/README.md)
 ```
 
 ## How it works

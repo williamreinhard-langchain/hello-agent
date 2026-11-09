@@ -1,0 +1,13 @@
+[project]
+name = "hello-agent-mda"
+version = "0.1.0"
+description = "Hello-world agent-authz agent as a Managed Deep Agent"
+requires-python = ">=3.11"
+dependencies = [
+    "managed-deepagents==0.10.1",
+    "langchain-openai>=1.6.7",
+    "mcp>=1.30",
+]
+
+[tool.mda]
+python-version = "3.12"
